@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /greeting-service/api/v1
+
+spring:
+  application:
+    name: greeting-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+greeting-service:
+  greeting: "Profile"
+  default-value: "PROD"
