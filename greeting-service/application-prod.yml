@@ -14,4 +14,4 @@ management:
           - '*'
 greeting-service:
   greeting: "Profile"
-  default-value: "PROD"
+  default-value: "PRODUCTION"
